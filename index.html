@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> Calculator  </title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class= "form-class">
+<form name = "calci">
+	
+  <input id = "main" type ="text" name = "answer"> 
+  <br> 
+  <br>
+
+
+  <input type = "button" value = "1" placeholder="1" onclick = "calci.answer.value += '1' ">
+  <input type = "button" value = "2" placeholder="2" onclick = "calci.answer.value += '2' ">
+  <input type = "button" value = "3" placeholder="3" onclick = "calci.answer.value += '3' ">
+   <input type = "button" value = "+" placeholder="+" onclick = "calci.answer.value += '+' ">
+  <br> <br>
+  
+  <input type = "button" value = "4" placeholder="4" onclick = "calci.answer.value += '4' ">
+  <input type = "button" value = "5" placeholder="5" onclick = "calci.answer.value += '5' ">
+  <input type = "button" value = "6" placeholder="6" onclick = "calci.answer.value += '6' ">
+  <input type = "button" value = "-" placeholder="-" onclick = "calci.answer.value += '-' ">
+  <br> <br>
+  
+  <input type = "button" value = "7" placeholder="7" onclick = "calci.answer.value += '7' ">
+  <input type = "button" value = "8" placeholder="8" onclick = "calci.answer.value += '8' ">
+  <input type = "button" value = "9" placeholder="9" onclick = "calci.answer.value += '9' ">
+  <input type = "button" value = "*" placeholder="*" onclick = "calci.answer.value += '*' ">
+  <br> <br>
+  
+  <input type = "button" value = "0" placeholder="0" onclick = "calci.answer.value += '0' ">
+  <input type = "button" value = "." placeholder="." onclick = "calci.answer.value += '.' ">
+  <input type = "button" value = "/" placeholder="/" onclick = "calci.answer.value += '/' ">
+
+
+
+    <input type = "button" value = "=" placeholder="1" onclick = "calci.answer.value = eval(calci.answer.value) ">
+  <br> 
+
+
+  <input type = "button" value = "Clear All" onclick = "calci.answer.value = ' ' " id= "clear" >
+  <br> 
+  
+</form>
+</div>
+</body>
+</html>
+
+ 

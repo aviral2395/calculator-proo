@@ -1,0 +1,66 @@
+
+body{
+    background-color: rgba(255, 255, 255, 0.413);
+}
+
+h1{
+    text-align: center;
+}
+
+.form-class input ::placeholder{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+.form-class
+{
+width: 300px;
+background-color: rgb(221, 221, 221);
+height: 530px;
+margin: auto;
+border: 31px solid rgb(136, 136, 136);
+border-style:outset;
+box-shadow: 3px 3px 15px rgb(0, 145, 0);
+border-radius: 5px;
+padding: 20px;
+}
+
+
+
+input
+{
+width: 20px;
+font-weight: bold;
+background-color: rgb(14, 14, 14);
+color: rgb(233, 233, 233);
+border: 3px solid rgb(109, 109, 109);
+border-style: inset;
+border-radius: 5px;
+padding: 26px;
+margin: 5px 5px 5px 8px;
+font-size: 15px;
+}
+
+#main{
+width: 240px;
+height: 15px;
+border: 5px solid rgb(177, 177, 177);
+border-style: groove;
+border-radius: 28px;
+padding: 20px;
+margin: auto;
+}
+
+br{
+    text-decoration: none;
+}
+
+#clear{
+    width: 100px;
+    border: 3px solid gray;
+    border-style: hidden;
+    border-radius: 13px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
